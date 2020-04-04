@@ -1,14 +1,14 @@
 let db = {
   users: [
     {
-      userId: 'testtesttest',
-      email: 'new@gmail.com',
-      handle: 'user',
-      createdAt: '2019-03-1ST10:59:52.798Z',
-      imageUrl: 'image/dasdasdasd/asdasdasd',
-      bio: 'Hello, my name is user, nice to meet you',
-      website: 'https://user.com',
-      location: 'London, UK'
+      userId: "test",
+      email: "new@gmail.com",
+      handle: "user",
+      createdAt: "2019-03-1ST10:59:52.798Z",
+      imageUrl: "image/dasdasdasd/asdasdasd",
+      bio: "Hello, my name is user, nice to meet you",
+      website: "https://user.com",
+      location: "London, UK"
     }
   ],
   screams: [
@@ -24,23 +24,23 @@ let db = {
 
 const userDetails = {
   credentials: {
-    userId: '123123123123',
-    email: 'user@gmail.com',
-    handle: 'user',
-    createdAt: '2019-03-15T10:59:52.798Z',
-    imageUrl: 'image/dsadfasdfasdf/asdfasdfasdf',
-    bio: 'Hello, my name is user, nie to meet you',
-    website: 'https://user.com',
-    location: 'London, UK'
+    userId: "123",
+    email: "user@gmail.com",
+    handle: "user",
+    createdAt: "2019-03-15T10:59:52.798Z",
+    imageUrl: "image/dsadfasdfasdf/asdfasdfasdf",
+    bio: "Hello, my name is user, nie to meet you",
+    website: "https://user.com",
+    location: "London, UK"
   },
   likes: [
     {
-      userHandle: 'user',
-      screamId: 'asdasdasdasd'
+      userHandle: "user",
+      screamId: "asdasdasdasd"
     },
     {
-      userHandle: 'user',
-      screamId: 'asdfasdfasdf'
+      userHandle: "user",
+      screamId: "asdfasdfasdf"
     }
   ]
-}
+};
